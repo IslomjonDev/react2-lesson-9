@@ -1,0 +1,30 @@
+form{
+    padding: 150px 0;
+    h1{
+        text-align: center;
+        font-family: Sen;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -2px;  
+        margin-bottom: 68px;      
+    }
+    input{
+        width: 768px;
+        outline: none;
+        height: 76px;
+        border-radius: 2px;
+        border: 1px solid #6D6E7680;
+        display: flex;
+        margin: 0 auto;
+        font-size: 18px;
+        padding: 0 10px;
+
+    }
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

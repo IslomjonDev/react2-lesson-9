@@ -1,0 +1,23 @@
+.card{
+        width: 405px;
+        img{
+            width: 405px;
+            height: 318px;
+            object-fit: contain;
+        }
+        h2{
+            margin: 16px 0;
+        }
+        p{
+            display: -webkit-box;
+            -webkit-line-clamp: 3; 
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;          
+        }
+}
+
+.product-item{
+    display: flex;
+    gap: 34px;
+}
