@@ -11,6 +11,7 @@ const Account = () => {
         <input type="text" placeholder='fullName'  />
         <input type="text" placeholder='Password' />
         <input type="text" placeholder='Confirm Password'/>
+        <button>Save</button>
         </div>
       </form>
     </>

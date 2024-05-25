@@ -27,4 +27,13 @@ form{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    button{
+        width: 768px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 15px;
+        background: #FFD050;
+        border: 1px solid #FFD050;
+    }
 }
